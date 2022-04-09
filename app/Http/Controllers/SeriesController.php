@@ -19,4 +19,9 @@ class SeriesController extends Controller
             compact('series')
         );
     }
+
+    public function create()
+    {
+        return view('series.create');
+    }
 }
